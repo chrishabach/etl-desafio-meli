@@ -1,3 +1,4 @@
+import os
 import polars as pl
 from data_validator import DataValidator
 from config import Config
@@ -58,8 +59,11 @@ class DataTransformer:
             on=['day', 'user_id', 'event_data_position', 'event_data_value_prop'], 
             how='left'
         ).with_column(
-            (pl.col("day") - pl.duration(days=20)).alias("start_date")
-        )
+            (pl.col("day") - pl.duration(days=21)).alias("start_date")            
+        ).with_column(
+            pl.col("has_clicked").fill_null(0).alias("has_clicked")
+        )    
+        
             
         pl_prints_left = pl_prints_taps.lazy()
         pl_prints_right = pl_prints_taps.lazy()
@@ -77,6 +81,7 @@ class DataTransformer:
         ])
         
         pl_agg_value_prop = pl_agg_value_prop.collect()
+        
 
         # Join con los pagos
         pl_agg_prints_pays = pl_prints_taps.join(
@@ -85,11 +90,13 @@ class DataTransformer:
             right_on=["user_id", "value_prop"],
             how="left"
         ).filter(
-            (pl.col("pay_date").is_between(pl.col('start_date'), pl.col('day')))
+            (pl.col("pay_date") >= pl.col("start_date")) &
+            (pl.col("pay_date") < pl.col("day"))
         ).groupby(["day", "user_id", "event_data_value_prop"]).agg([
             pl.count().alias("count_total_pays"),
             pl.sum("total").alias("sum_total_pays")
         ])
+        
         
         # Unir todos los resultados
         enriched_prints = pl_prints_taps.join(
