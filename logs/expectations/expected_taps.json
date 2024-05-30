@@ -1,0 +1,17 @@
+{
+    "source_name": "TAPS",
+    "expectations": [
+        {
+            "check": "columns_exist",
+            "columns": ["day", "event_data_position", "event_data_value_prop", "user_id"]
+        },
+        {
+            "check": "no_duplicates",
+            "columns": ["day", "event_data_position", "event_data_value_prop", "user_id"]
+        },	
+        {
+            "check": "no_nulls",
+            "columns": ["day", "event_data_position", "event_data_value_prop", "user_id"]
+        }
+    ]
+}

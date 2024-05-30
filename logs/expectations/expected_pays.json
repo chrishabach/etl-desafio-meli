@@ -1,0 +1,17 @@
+{
+    "source_name": "PAYS",
+    "expectations": [
+        {
+            "check": "columns_exist",
+            "columns": ["pay_date", "total", "user_id", "value_prop"]
+        },
+        {
+            "check": "no_nulls",
+            "columns": ["pay_date", "total", "user_id", "value_prop"]
+        },
+        {
+            "check": "no_negative_values",
+            "columns": ["total"]
+        }
+    ]
+}

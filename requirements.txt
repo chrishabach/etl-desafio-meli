@@ -1,0 +1,4 @@
+polars==0.15.0
+pyarrow
+pandas
+ipykernel

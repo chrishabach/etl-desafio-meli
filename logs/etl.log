@@ -1,0 +1,830 @@
+2024-05-29 11:44:14 - INFO - etl - ETL is starting...
+2024-05-29 11:44:14 - INFO - etl - Starting data extraction...
+2024-05-29 11:44:19 - INFO - etl - Data extracted successfully.
+2024-05-29 11:44:19 - INFO - etl - Data transformed successfully.
+2024-05-29 11:44:19 - INFO - etl - Data loader successfully.
+2024-05-29 11:44:19 - INFO - etl - ETL finished successfully. Time elapsed: 5.43 seconds
+2024-05-29 11:54:54 - INFO - etl - ETL is starting...
+2024-05-29 11:54:58 - INFO - etl - Data extracted successfully.
+2024-05-29 11:54:58 - INFO - etl - Data transformed successfully.
+2024-05-29 11:54:59 - INFO - etl - Data loader successfully.
+2024-05-29 11:54:59 - INFO - etl - ETL finished successfully. Time elapsed: 4.43 seconds
+2024-05-29 12:09:48 - INFO - etl - ETL is starting...
+2024-05-29 12:09:51 - INFO - etl - Data extracted successfully.
+2024-05-29 12:09:51 - ERROR - data_validator - Source 'PRINTS': Duplicates found in column: day
+2024-05-29 12:09:51 - ERROR - data_validator - Validation failed for source 'PRINTS'. Not all expectations were met.
+2024-05-29 12:09:51 - INFO - etl - An error occurred: Validation failed. Not all expectations were met.
+2024-05-29 12:14:52 - INFO - etl - ETL is starting...
+2024-05-29 12:14:55 - INFO - etl - Data extracted successfully.
+2024-05-29 12:14:55 - ERROR - data_validator - Source 'PRINTS': Missing columns: ['user_id_']
+2024-05-29 12:14:55 - ERROR - data_validator - Source 'PRINTS': Duplicates found in column: day
+2024-05-29 12:14:55 - ERROR - data_validator - Validation failed for source 'PRINTS'. Not all expectations were met.
+2024-05-29 12:14:55 - INFO - etl - An error occurred: Validation failed. Not all expectations were met.
+2024-05-29 12:18:54 - INFO - etl - ETL is starting...
+2024-05-29 12:18:58 - INFO - etl - Data extracted successfully.
+2024-05-29 12:18:58 - ERROR - data_validator - Source 'PRINTS': Duplicates found in column: day
+2024-05-29 12:18:58 - ERROR - data_validator - Validation failed for source 'PRINTS'. Not all expectations were met.
+2024-05-29 12:18:58 - INFO - etl - An error occurred: Validation failed. Not all expectations were met.
+2024-05-29 12:24:14 - INFO - etl - ETL is starting...
+2024-05-29 12:24:18 - INFO - etl - Data extracted successfully.
+2024-05-29 12:24:18 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-29 12:24:18 - INFO - etl - An error occurred: Data validation failed, cannot proceed with transformation.
+2024-05-29 12:27:14 - INFO - etl - ETL is starting...
+2024-05-29 12:27:18 - INFO - etl - Data extracted successfully.
+2024-05-29 12:27:18 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-29 12:27:18 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-29 12:27:18 - INFO - etl - An error occurred: Data validation failed, cannot proceed with transformation.
+2024-05-29 12:29:28 - INFO - etl - ETL is starting...
+2024-05-29 12:29:32 - INFO - etl - Data extracted successfully.
+2024-05-29 12:29:32 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-29 12:29:32 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-29 12:29:32 - INFO - etl - Data transformed successfully.
+2024-05-29 12:29:34 - INFO - etl - Data loader successfully.
+2024-05-29 12:29:34 - INFO - etl - ETL finished successfully. Time elapsed: 6.37 seconds
+2024-05-29 12:30:16 - INFO - etl - ETL is starting...
+2024-05-29 12:30:20 - INFO - etl - Data extracted successfully.
+2024-05-29 12:30:20 - ERROR - data_validator - Source 'PRINTS': Missing columns: ['user_id_']
+2024-05-29 12:30:20 - ERROR - data_validator - Validation failed for source 'PRINTS'. Not all expectations were met.
+2024-05-29 12:30:20 - INFO - etl - An error occurred: Validation failed. Not all expectations were met.
+2024-05-29 12:30:35 - INFO - etl - ETL is starting...
+2024-05-29 12:30:38 - INFO - etl - Data extracted successfully.
+2024-05-29 12:30:39 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-29 12:30:39 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-29 12:30:39 - INFO - etl - Data transformed successfully.
+2024-05-29 12:30:39 - INFO - etl - Data loader successfully.
+2024-05-29 12:30:39 - INFO - etl - ETL finished successfully. Time elapsed: 4.62 seconds
+2024-05-29 12:31:20 - INFO - etl - ETL is starting...
+2024-05-29 12:31:24 - INFO - etl - Data extracted successfully.
+2024-05-29 12:31:24 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-29 12:31:24 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-29 12:31:25 - INFO - etl - Data transformed successfully.
+2024-05-29 12:31:25 - INFO - etl - Data loader successfully.
+2024-05-29 12:31:25 - INFO - etl - ETL finished successfully. Time elapsed: 4.68 seconds
+2024-05-29 12:31:37 - INFO - etl - ETL is starting...
+2024-05-29 12:31:41 - INFO - etl - Data extracted successfully.
+2024-05-29 12:31:41 - ERROR - data_validator - Source 'PRINTS': Missing columns: ['user_id_']
+2024-05-29 12:31:41 - ERROR - data_validator - Validation failed for source 'PRINTS'. Not all expectations were met.
+2024-05-29 12:31:41 - ERROR - data_validator - Source 'PRINTS': Missing columns: ['user_id_']
+2024-05-29 12:31:41 - ERROR - data_validator - Validation failed for source 'PRINTS'. Not all expectations were met.
+2024-05-29 12:31:41 - INFO - etl - An error occurred: Data validation failed, cannot proceed with transformation.
+2024-05-29 12:32:29 - INFO - etl - ETL is starting...
+2024-05-29 12:32:32 - INFO - etl - Data extracted successfully.
+2024-05-29 12:32:32 - ERROR - data_validator - Source 'PRINTS': Missing columns: ['user_id_']
+2024-05-29 12:32:32 - ERROR - data_validator - Validation failed for source 'PRINTS'. Not all expectations were met.
+2024-05-29 12:32:32 - INFO - etl - An error occurred: Data validation failed, cannot proceed with transformation.
+2024-05-29 12:53:09 - INFO - etl - ETL is starting...
+2024-05-29 12:53:12 - INFO - etl - Data extracted successfully.
+2024-05-29 12:53:13 - INFO - etl - An error occurred: column1
+2024-05-29 12:54:05 - INFO - etl - ETL is starting...
+2024-05-29 12:54:09 - INFO - etl - Data extracted successfully.
+2024-05-29 12:54:09 - INFO - etl - An error occurred: column1
+2024-05-29 12:55:41 - INFO - etl - ETL is starting...
+2024-05-29 12:55:45 - INFO - etl - Data extracted successfully.
+2024-05-29 12:55:45 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-29 12:55:45 - INFO - data_validator - All validations passed successfully for source 'PAYS'.
+2024-05-29 12:55:46 - INFO - etl - Data transformed successfully.
+2024-05-29 12:55:46 - INFO - etl - Data loader successfully.
+2024-05-29 12:55:46 - INFO - etl - ETL finished successfully. Time elapsed: 5.04 seconds
+2024-05-29 12:56:46 - INFO - etl - ETL is starting...
+2024-05-29 12:56:50 - INFO - etl - Data extracted successfully.
+2024-05-29 12:56:50 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-29 12:56:50 - ERROR - data_validator - Source 'PAYS': Negative values found in column: total
+2024-05-29 12:56:50 - ERROR - data_validator - Validation failed for source 'PAYS'. Not all expectations were met.
+2024-05-29 12:56:50 - INFO - etl - An error occurred: Data validation failed, cannot proceed with transformation.
+2024-05-29 13:08:02 - INFO - etl - ETL is starting...
+2024-05-29 13:08:05 - INFO - etl - Data extracted successfully.
+2024-05-29 13:08:06 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-29 13:08:06 - INFO - data_validator - All validations passed successfully for source 'PAYS'.
+2024-05-29 13:08:06 - INFO - etl - Data transformed successfully.
+2024-05-29 13:08:07 - INFO - etl - Data loader successfully.
+2024-05-29 13:08:07 - INFO - etl - ETL finished successfully. Time elapsed: 5.22 seconds
+2024-05-29 13:25:33 - INFO - etl - ETL is starting...
+2024-05-29 13:25:37 - INFO - etl - Data extracted successfully.
+2024-05-29 13:25:37 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-29 13:25:37 - INFO - data_validator - All validations passed successfully for source 'TAPS'.
+2024-05-29 13:25:37 - INFO - data_validator - All validations passed successfully for source 'PAYS'.
+2024-05-29 13:25:37 - INFO - etl - Data transformed successfully.
+2024-05-29 13:25:38 - INFO - etl - Data loader successfully.
+2024-05-29 13:25:38 - INFO - etl - ETL finished successfully. Time elapsed: 4.93 seconds
+2024-05-29 13:29:16 - INFO - etl - ETL is starting...
+2024-05-29 13:29:20 - INFO - etl - Data extracted successfully.
+2024-05-29 13:29:20 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-29 13:29:20 - INFO - data_validator - All validations passed successfully for source 'TAPS'.
+2024-05-29 13:29:20 - INFO - data_validator - All validations passed successfully for source 'PAYS'.
+2024-05-29 13:29:21 - INFO - etl - Data transformed successfully.
+2024-05-29 13:29:21 - INFO - etl - Data loader successfully.
+2024-05-29 13:29:21 - INFO - etl - ETL finished successfully. Time elapsed: 4.5 seconds
+2024-05-29 17:07:52 - INFO - etl - ETL is starting...
+2024-05-29 17:08:01 - INFO - etl - Data extracted successfully.
+2024-05-29 17:08:01 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-29 17:08:01 - INFO - data_validator - All validations passed successfully for source 'TAPS'.
+2024-05-29 17:08:01 - ERROR - data_validator - Source 'PAYS': Negative values found in column: total
+2024-05-29 17:08:01 - ERROR - data_validator - Validation failed for source 'PAYS'. Not all expectations were met.
+2024-05-29 17:08:01 - INFO - etl - An error occurred: Data validation failed, cannot proceed with transformation.
+2024-05-29 17:08:24 - INFO - etl - ETL is starting...
+2024-05-29 17:08:32 - INFO - etl - Data extracted successfully.
+2024-05-29 17:08:32 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-29 17:08:32 - INFO - data_validator - All validations passed successfully for source 'TAPS'.
+2024-05-29 17:08:32 - INFO - data_validator - All validations passed successfully for source 'PAYS'.
+2024-05-29 17:08:33 - INFO - etl - Data transformed successfully.
+2024-05-29 17:08:33 - INFO - etl - An error occurred: cannot import name 'timedel' from 'datetime' (C:\Users\chris\AppData\Local\Programs\Python\Python311\Lib\datetime.py)
+2024-05-29 17:08:59 - INFO - etl - ETL is starting...
+2024-05-29 17:09:07 - INFO - etl - Data extracted successfully.
+2024-05-29 17:09:07 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-29 17:09:07 - INFO - data_validator - All validations passed successfully for source 'TAPS'.
+2024-05-29 17:09:07 - INFO - data_validator - All validations passed successfully for source 'PAYS'.
+2024-05-29 17:09:08 - INFO - etl - Data transformed successfully.
+2024-05-29 17:09:12 - INFO - etl - Data loader successfully.
+2024-05-29 17:09:12 - INFO - etl - ETL finished successfully. Time elapsed: 12.26 seconds
+2024-05-29 17:10:13 - INFO - etl - ETL is starting...
+2024-05-29 17:10:20 - INFO - etl - Data extracted successfully.
+2024-05-29 17:10:20 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-29 17:10:20 - INFO - data_validator - All validations passed successfully for source 'TAPS'.
+2024-05-29 17:10:20 - INFO - data_validator - All validations passed successfully for source 'PAYS'.
+2024-05-29 17:10:21 - INFO - etl - Data transformed successfully.
+2024-05-29 17:10:22 - DEBUG - loader - Generated 113336 rows to CSV successfully.
+2024-05-29 17:10:22 - INFO - etl - Data loader successfully.
+2024-05-29 17:10:22 - INFO - etl - ETL finished successfully. Time elapsed: 8.99 seconds
+2024-05-29 17:21:47 - INFO - etl - ETL is starting...
+2024-05-29 17:21:55 - INFO - etl - Data extracted successfully.
+2024-05-29 17:21:55 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-29 17:21:55 - INFO - data_validator - All validations passed successfully for source 'TAPS'.
+2024-05-29 17:21:55 - INFO - data_validator - All validations passed successfully for source 'PAYS'.
+2024-05-29 17:21:56 - INFO - etl - Data transformed successfully.
+2024-05-29 17:21:57 - DEBUG - loader - Generated 113336 rows to CSV successfully.
+2024-05-29 17:21:57 - INFO - etl - Data loader successfully.
+2024-05-29 17:21:57 - INFO - etl - ETL finished successfully. Time elapsed: 10.03 seconds
+2024-05-29 17:23:00 - INFO - etl - ETL is starting...
+2024-05-29 17:23:08 - INFO - etl - Data extracted successfully.
+2024-05-29 17:23:08 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-29 17:23:08 - INFO - data_validator - All validations passed successfully for source 'TAPS'.
+2024-05-29 17:23:08 - INFO - data_validator - All validations passed successfully for source 'PAYS'.
+2024-05-29 17:23:09 - INFO - etl - Data transformed successfully.
+2024-05-29 17:23:10 - DEBUG - loader - Generated 113336 rows to CSV successfully.
+2024-05-29 17:23:10 - INFO - etl - Data loader successfully.
+2024-05-29 17:23:10 - INFO - etl - ETL finished successfully. Time elapsed: 9.53 seconds
+2024-05-29 17:23:34 - INFO - etl - ETL is starting...
+2024-05-29 17:23:42 - INFO - etl - Data extracted successfully.
+2024-05-29 17:23:42 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-29 17:23:42 - INFO - data_validator - All validations passed successfully for source 'TAPS'.
+2024-05-29 17:23:42 - INFO - data_validator - All validations passed successfully for source 'PAYS'.
+2024-05-29 17:23:43 - INFO - etl - Data transformed successfully.
+2024-05-29 17:23:44 - ERROR - loader - Failed to write DataFrame to CSV: 'DataLoader' object has no attribute 'path_processedw'
+2024-05-29 17:23:44 - ERROR - etl - An error occurred during loding: Failed to write DataFrame to CSV due to an error: 'DataLoader' object has no attribute 'path_processedw'
+2024-05-29 17:23:44 - INFO - etl - An error occurred: Failed to write DataFrame to CSV due to an error: 'DataLoader' object has no attribute 'path_processedw'
+2024-05-30 03:10:19 - INFO - etl - ETL is starting...
+2024-05-30 03:10:24 - INFO - etl - Data extracted successfully.
+2024-05-30 03:10:24 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-30 03:10:24 - INFO - data_validator - All validations passed successfully for source 'TAPS'.
+2024-05-30 03:10:24 - INFO - data_validator - All validations passed successfully for source 'PAYS'.
+2024-05-30 03:10:24 - INFO - etl - Data transformed successfully.
+2024-05-30 03:10:26 - ERROR - loader - Failed to write DataFrame to CSV: 'DataLoader' object has no attribute 'path_processedw'
+2024-05-30 03:10:26 - ERROR - etl - An error occurred during loding: Failed to write DataFrame to CSV due to an error: 'DataLoader' object has no attribute 'path_processedw'
+2024-05-30 03:10:26 - INFO - etl - An error occurred: Failed to write DataFrame to CSV due to an error: 'DataLoader' object has no attribute 'path_processedw'
+2024-05-30 03:11:06 - INFO - etl - ETL is starting...
+2024-05-30 03:11:09 - INFO - etl - Data extracted successfully.
+2024-05-30 03:11:10 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-30 03:11:10 - INFO - data_validator - All validations passed successfully for source 'TAPS'.
+2024-05-30 03:11:10 - INFO - data_validator - All validations passed successfully for source 'PAYS'.
+2024-05-30 03:11:10 - INFO - etl - Data transformed successfully.
+2024-05-30 03:11:10 - DEBUG - loader - Generated 113336 rows to CSV successfully.
+2024-05-30 03:11:10 - INFO - etl - Data loader successfully.
+2024-05-30 03:11:10 - INFO - etl - ETL finished successfully. Time elapsed: 4.82 seconds
+2024-05-30 04:34:04 - INFO - etl - ETL is starting...
+2024-05-30 04:34:08 - INFO - etl - Data extracted successfully.
+2024-05-30 04:34:08 - INFO - transformer - prints data normalized successfully.
+2024-05-30 04:34:08 - INFO - transformer - taps data normalized successfully.
+2024-05-30 04:34:09 - INFO - etl - Data transformed successfully.
+2024-05-30 04:34:09 - DEBUG - loader - Generated 113336 rows to CSV successfully.
+2024-05-30 04:34:09 - INFO - etl - Data loader successfully.
+2024-05-30 04:34:09 - INFO - etl - ETL finished successfully. Time elapsed: 5.52 seconds
+2024-05-30 04:51:50 - INFO - etl - ETL is starting...
+2024-05-30 04:51:54 - ERROR - etl - An error occurred during extraction: 'DataExtractor' object has no attribute 'path_payss'
+2024-05-30 04:51:54 - ERROR - etl - Error extracting Data : An error occurred during extraction: 'DataExtractor' object has no attribute 'path_payss'
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 54, in extract
+    self.pl_prints, self.pl_taps, self.pl_pays = extractor.extract()
+                                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\extractor.py", line 28, in extract
+    pl_pays = pl.read_csv(self.path_payss)
+                          ^^^^^^^^^^^^^^^
+AttributeError: 'DataExtractor' object has no attribute 'path_payss'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 96, in etl_pipeline
+    etl.extract()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 58, in extract
+    raise ExtractProcessException(f"An error occurred during extraction: {e}")
+exceptions.ExtractProcessException: An error occurred during extraction: 'DataExtractor' object has no attribute 'path_payss'
+Stack (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\main.py", line 15, in <module>
+    etl_pipeline()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 105, in etl_pipeline
+    logger.error(
+2024-05-30 04:53:55 - INFO - etl - ETL is starting...
+2024-05-30 04:53:59 - ERROR - etl - An error occurred during extraction: 'DataExtractor' object has no attribute 'path_payss'
+2024-05-30 04:53:59 - ERROR - etl - Error extracting Data : An error occurred during extraction: 'DataExtractor' object has no attribute 'path_payss'
+2024-05-30 04:54:39 - INFO - etl - ETL is starting...
+2024-05-30 04:54:44 - ERROR - etl - An error occurred during extraction: 'DataExtractor' object has no attribute 'path_payss'
+2024-05-30 04:54:44 - ERROR - etl - Error extracting Data : An error occurred during extraction: 'DataExtractor' object has no attribute 'path_payss'
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 54, in extract
+    self.pl_prints, self.pl_taps, self.pl_pays = extractor.extract()
+                                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\extractor.py", line 28, in extract
+    pl_pays = pl.read_csv(self.path_payss)
+                          ^^^^^^^^^^^^^^^
+AttributeError: 'DataExtractor' object has no attribute 'path_payss'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 96, in etl_pipeline
+    etl.extract()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 58, in extract
+    raise ExtractProcessException(f"An error occurred during extraction: {e}")
+exceptions.ExtractProcessException: An error occurred during extraction: 'DataExtractor' object has no attribute 'path_payss'
+2024-05-30 04:56:39 - INFO - etl - ETL is starting...
+2024-05-30 04:56:43 - ERROR - etl - An error occurred during extraction: 'DataExtractor' object has no attribute 'path_payss'
+2024-05-30 04:56:43 - ERROR - etl - Error extracting Data : An error occurred during extraction: 'DataExtractor' object has no attribute 'path_payss'
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 54, in extract
+    self.pl_prints, self.pl_taps, self.pl_pays = extractor.extract()
+                                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\extractor.py", line 28, in extract
+    pl_pays = pl.read_csv(self.path_payss)
+                          ^^^^^^^^^^^^^^^
+AttributeError: 'DataExtractor' object has no attribute 'path_payss'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 96, in etl_pipeline
+    etl.extract()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 58, in extract
+    raise ExtractProcessException(f"An error occurred during extraction: {e}")
+exceptions.ExtractProcessException: An error occurred during extraction: 'DataExtractor' object has no attribute 'path_payss'
+2024-05-30 05:01:10 - INFO - etl - ETL is starting...
+2024-05-30 05:01:14 - ERROR - etl - An error occurred during extraction: 'DataExtractor' object has no attribute 'path_payss'
+2024-05-30 05:01:14 - ERROR - etl - Error extracting Data : An error occurred during extraction: 'DataExtractor' object has no attribute 'path_payss'
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 54, in extract
+    self.pl_prints, self.pl_taps, self.pl_pays = extractor.extract()
+                                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\extractor.py", line 28, in extract
+    pl_pays = pl.read_csv(self.path_payss)
+                          ^^^^^^^^^^^^^^^
+AttributeError: 'DataExtractor' object has no attribute 'path_payss'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 96, in etl_pipeline
+    etl.extract()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 58, in extract
+    raise ExtractProcessException(f"An error occurred during extraction: {e}")
+exceptions.ExtractProcessException: An error occurred during extraction: 'DataExtractor' object has no attribute 'path_payss'
+2024-05-30 05:01:50 - INFO - etl - ETL is starting...
+2024-05-30 05:01:54 - ERROR - etl - An error occurred during extraction: 'DataExtractor' object has no attribute 'path_payss'
+2024-05-30 05:01:54 - ERROR - etl - Error extracting Data : An error occurred during extraction: 'DataExtractor' object has no attribute 'path_payss'
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 54, in extract
+    self.pl_prints, self.pl_taps, self.pl_pays = extractor.extract()
+                                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\extractor.py", line 28, in extract
+    pl_pays = pl.read_csv(self.path_payss)
+                          ^^^^^^^^^^^^^^^
+AttributeError: 'DataExtractor' object has no attribute 'path_payss'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 96, in etl_pipeline
+    etl.extract()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 58, in extract
+    raise ExtractProcessException(f"An error occurred during extraction: {e}")
+exceptions.ExtractProcessException: An error occurred during extraction: 'DataExtractor' object has no attribute 'path_payss'
+2024-05-30 05:02:37 - INFO - etl - ETL is starting...
+2024-05-30 05:02:40 - ERROR - etl - An error occurred during extraction: 'DataExtractor' object has no attribute 'path_payss'
+2024-05-30 05:02:40 - ERROR - etl - Error extracting Data : 
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 54, in extract
+    self.pl_prints, self.pl_taps, self.pl_pays = extractor.extract()
+                                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\extractor.py", line 28, in extract
+    pl_pays = pl.read_csv(self.path_payss)
+                          ^^^^^^^^^^^^^^^
+AttributeError: 'DataExtractor' object has no attribute 'path_payss'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 96, in etl_pipeline
+    etl.extract()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 58, in extract
+    raise ExtractProcessException('')
+exceptions.ExtractProcessException
+2024-05-30 05:04:55 - INFO - etl - ETL is starting...
+2024-05-30 05:04:58 - ERROR - etl - Error extracting Data : An error occurred during extraction: 'DataExtractor' object has no attribute 'path_payss'
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 54, in extract
+    self.pl_prints, self.pl_taps, self.pl_pays = extractor.extract()
+                                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\extractor.py", line 28, in extract
+    pl_pays = pl.read_csv(self.path_payss)
+                          ^^^^^^^^^^^^^^^
+AttributeError: 'DataExtractor' object has no attribute 'path_payss'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 95, in etl_pipeline
+    etl.extract()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 57, in extract
+    raise ExtractProcessException(f"An error occurred during extraction: {e}")
+exceptions.ExtractProcessException: An error occurred during extraction: 'DataExtractor' object has no attribute 'path_payss'
+2024-05-30 05:08:23 - INFO - etl - ETL is starting...
+2024-05-30 05:08:26 - ERROR - etl - Error extracting Data : ERROR EXTRACTION: 
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 54, in extract
+    self.pl_prints, self.pl_taps, self.pl_pays = extractor.extract()
+                                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\extractor.py", line 28, in extract
+    pl_pays = pl.read_csv(self.path_payss)
+                          ^^^^^^^^^^^^^^^
+AttributeError: 'DataExtractor' object has no attribute 'path_payss'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 95, in etl_pipeline
+    etl.extract()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 57, in extract
+    raise ExtractProcessException(f"ERROR EXTRACTION: ")
+exceptions.ExtractProcessException: ERROR EXTRACTION: 
+2024-05-30 05:09:07 - INFO - etl - ETL is starting...
+2024-05-30 05:09:11 - ERROR - etl - Error extracting Data : ERROR EXTRACTION: 
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 54, in extract
+    self.pl_prints, self.pl_taps, self.pl_pays = extractor.extract()
+                                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\extractor.py", line 28, in extract
+    pl_pays = pl.read_csv(self.path_payss)
+                          ^^^^^^^^^^^^^^^
+AttributeError: 'DataExtractor' object has no attribute 'path_payss'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 95, in etl_pipeline
+    etl.extract()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 57, in extract
+    raise ExtractProcessException(f"ERROR EXTRACTION: ")
+exceptions.ExtractProcessException: ERROR EXTRACTION: 
+Stack (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\main.py", line 15, in <module>
+    etl_pipeline()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 104, in etl_pipeline
+    logger.error(
+2024-05-30 05:10:58 - INFO - etl - ETL is starting...
+2024-05-30 05:11:03 - ERROR - etl - Error extracting Data : Could not extract data
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 54, in extract
+    self.pl_prints, self.pl_taps, self.pl_pays = extractor.extract()
+                                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\extractor.py", line 28, in extract
+    pl_pays = pl.read_csv(self.path_payss)
+                          ^^^^^^^^^^^^^^^
+AttributeError: 'DataExtractor' object has no attribute 'path_payss'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 95, in etl_pipeline
+    etl.extract()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 57, in extract
+    raise ExtractProcessException("Could not extract data")
+exceptions.ExtractProcessException: Could not extract data
+Stack (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\main.py", line 15, in <module>
+    etl_pipeline()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 104, in etl_pipeline
+    logger.error(
+2024-05-30 05:18:08 - INFO - etl - ETL is starting...
+2024-05-30 05:18:12 - INFO - etl - Data extracted successfully.
+2024-05-30 05:18:12 - INFO - transformer - prints data normalized successfully.
+2024-05-30 05:18:12 - INFO - transformer - taps data normalized successfully.
+2024-05-30 05:18:12 - INFO - etl - Data transformed successfully.
+2024-05-30 05:18:13 - DEBUG - loader - Generated 113336 rows to CSV successfully.
+2024-05-30 05:18:13 - INFO - etl - Data loader successfully.
+2024-05-30 05:18:13 - INFO - etl - ETL finished successfully. Time elapsed: 5.24 seconds
+2024-05-30 05:20:25 - INFO - etl - ETL is starting...
+2024-05-30 05:20:28 - INFO - etl - Data extracted successfully.
+2024-05-30 05:20:28 - INFO - transformer - prints data normalized successfully.
+2024-05-30 05:20:28 - INFO - transformer - taps data normalized successfully.
+2024-05-30 05:20:29 - INFO - etl - Data transformed successfully.
+2024-05-30 05:20:29 - ERROR - loader - Failed to write DataFrame to CSV: 'DataLoader' object has no attribute 'path_processeds'
+2024-05-30 05:20:29 - ERROR - etl - Error Load Data : Could not load data
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\loader.py", line 33, in load
+    self.pl_transformed_data_filter.write_csv(self.path_processeds)
+                                              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataLoader' object has no attribute 'path_processeds'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 76, in load
+    self.pl_transformed_data = loader.load()
+                               ^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\loader.py", line 37, in load
+    raise Exception(f"Failed to write DataFrame to CSV due to an error: {e}")
+Exception: Failed to write DataFrame to CSV due to an error: 'DataLoader' object has no attribute 'path_processeds'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 95, in etl_pipeline
+    etl.load()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 79, in load
+    raise LoadProcessException("Could not load data")
+exceptions.LoadProcessException: Could not load data
+Stack (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\main.py", line 15, in <module>
+    etl_pipeline()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 114, in etl_pipeline
+    logger.error(
+2024-05-30 05:22:21 - INFO - etl - ETL is starting...
+2024-05-30 05:22:25 - INFO - etl - Data extracted successfully.
+2024-05-30 05:22:25 - INFO - transformer - prints data normalized successfully.
+2024-05-30 05:22:25 - INFO - transformer - taps data normalized successfully.
+2024-05-30 05:22:25 - INFO - etl - Data transformed successfully.
+2024-05-30 05:22:26 - ERROR - etl - Error Load Data : Failed to write DataFrame to CSV
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 76, in load
+    self.pl_transformed_data = loader.load()
+                               ^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\loader.py", line 32, in load
+    self.pl_transformed_data_filter.write_csv(self.path_processeds)
+                                              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataLoader' object has no attribute 'path_processeds'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 95, in etl_pipeline
+    etl.load()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 79, in load
+    raise LoadProcessException("Failed to write DataFrame to CSV")
+exceptions.LoadProcessException: Failed to write DataFrame to CSV
+Stack (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\main.py", line 15, in <module>
+    etl_pipeline()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 114, in etl_pipeline
+    logger.error(
+2024-05-30 05:23:53 - INFO - etl - ETL is starting...
+2024-05-30 05:23:57 - INFO - etl - Data extracted successfully.
+2024-05-30 05:23:57 - INFO - transformer - prints data normalized successfully.
+2024-05-30 05:23:57 - INFO - transformer - taps data normalized successfully.
+2024-05-30 05:23:57 - INFO - etl - Data transformed successfully.
+2024-05-30 05:23:58 - ERROR - etl - Error Load Data : Failed to write DataFrame to CSV
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 76, in load
+    self.pl_transformed_data = loader.load()
+                               ^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\loader.py", line 32, in load
+    self.pl_transformed_data_filter.write_csv(self.path_processeds)
+                                              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataLoader' object has no attribute 'path_processeds'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 95, in etl_pipeline
+    etl.load()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 79, in load
+    raise LoadProcessException("Failed to write DataFrame to CSV")
+exceptions.LoadProcessException: Failed to write DataFrame to CSV
+2024-05-30 05:27:46 - INFO - etl - ETL is starting...
+2024-05-30 05:27:50 - INFO - etl - Data extracted successfully.
+2024-05-30 05:27:50 - INFO - transformer - prints data normalized successfully.
+2024-05-30 05:27:50 - INFO - transformer - taps data normalized successfully.
+2024-05-30 05:27:50 - INFO - etl - Data transformed successfully.
+2024-05-30 05:27:51 - DEBUG - loader - Generated 113336 rows to CSV successfully.
+2024-05-30 05:27:51 - INFO - etl - Data loader successfully.
+2024-05-30 05:27:51 - INFO - etl - ETL finished successfully. Time elapsed: 4.73 seconds
+2024-05-30 05:28:25 - INFO - etl - ETL is starting...
+2024-05-30 05:28:25 - ERROR - etl - Error Extracting Data : Could not extract data
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 54, in extract
+    self.pl_prints, self.pl_taps, self.pl_pays = extractor.extract()
+                                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\extractor.py", line 26, in extract
+    pl_prints = self._load_jsonl_to_dataframe(self.path_prints)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\extractor.py", line 16, in _load_jsonl_to_dataframe
+    if not os.path.exists(file_paths):
+                          ^^^^^^^^^^
+NameError: name 'file_paths' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 93, in etl_pipeline
+    etl.extract()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 57, in extract
+    raise ExtractProcessException("Could not extract data")
+exceptions.ExtractProcessException: Could not extract data
+2024-05-30 05:29:13 - INFO - etl - ETL is starting...
+2024-05-30 05:29:14 - ERROR - extractor - File not found: C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\data\raw\prints.json
+2024-05-30 05:29:14 - ERROR - etl - Error Extracting Data : Could not extract data
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 54, in extract
+    self.pl_prints, self.pl_taps, self.pl_pays = extractor.extract()
+                                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\extractor.py", line 26, in extract
+    pl_prints = self._load_jsonl_to_dataframe(self.path_prints)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\extractor.py", line 18, in _load_jsonl_to_dataframe
+    raise FileNotFoundError(f"File not found: {file_path}")
+FileNotFoundError: File not found: C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\data\raw\prints.json
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 93, in etl_pipeline
+    etl.extract()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 57, in extract
+    raise ExtractProcessException("Could not extract data")
+exceptions.ExtractProcessException: Could not extract data
+2024-05-30 05:33:23 - INFO - etl - ETL is starting...
+2024-05-30 05:33:23 - ERROR - extractor - File not found: C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\data\raw\prints.json
+2024-05-30 05:33:26 - ERROR - extractor - File not found: C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\data\raw\taps.json
+2024-05-30 05:33:27 - INFO - etl - Data extracted successfully.
+2024-05-30 05:33:27 - INFO - transformer - prints data normalized successfully.
+2024-05-30 05:33:27 - INFO - transformer - taps data normalized successfully.
+2024-05-30 05:33:27 - INFO - etl - Data transformed successfully.
+2024-05-30 05:33:28 - DEBUG - loader - Generated 113336 rows to CSV successfully.
+2024-05-30 05:33:28 - INFO - etl - Data loader successfully.
+2024-05-30 05:33:28 - INFO - etl - ETL finished successfully. Time elapsed: 4.68 seconds
+2024-05-30 05:34:14 - INFO - etl - ETL is starting...
+2024-05-30 05:34:14 - ERROR - extractor - File not found: C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\data\raw\prints.json
+2024-05-30 05:34:14 - ERROR - etl - Error Extracting Data : Could not extract data
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 54, in extract
+    self.pl_prints, self.pl_taps, self.pl_pays = extractor.extract()
+                                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\extractor.py", line 26, in extract
+    pl_prints = self._load_jsonl_to_dataframe(self.path_prints)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\extractor.py", line 18, in _load_jsonl_to_dataframe
+    raise
+RuntimeError: No active exception to reraise
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 93, in etl_pipeline
+    etl.extract()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 57, in extract
+    raise ExtractProcessException("Could not extract data")
+exceptions.ExtractProcessException: Could not extract data
+2024-05-30 05:39:37 - INFO - etl - ETL is starting...
+2024-05-30 05:39:41 - INFO - etl - Data extracted successfully.
+2024-05-30 05:39:41 - INFO - transformer - prints data normalized successfully.
+2024-05-30 05:39:41 - INFO - transformer - taps data normalized successfully.
+2024-05-30 05:39:41 - INFO - etl - Data transformed successfully.
+2024-05-30 05:39:42 - DEBUG - loader - Generated 113336 rows to CSV successfully.
+2024-05-30 05:39:42 - INFO - etl - Data loader successfully.
+2024-05-30 05:39:42 - INFO - etl - ETL finished successfully. Time elapsed: 4.81 seconds
+2024-05-30 05:45:32 - INFO - etl - ETL is starting...
+2024-05-30 05:45:36 - INFO - etl - Data extracted successfully.
+2024-05-30 05:45:36 - INFO - transformer - prints data normalized successfully.
+2024-05-30 05:45:36 - INFO - transformer - taps data normalized successfully.
+2024-05-30 05:45:36 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-30 05:45:36 - INFO - data_validator - All validations passed successfully for source 'TAPS'.
+2024-05-30 05:45:36 - ERROR - data_validator - Source 'PAYS': Negative values found in column: total
+2024-05-30 05:45:36 - ERROR - data_validator - Validation failed for source 'PAYS'. Not all expectations were met.
+2024-05-30 05:45:36 - ERROR - etl - Error Transform Data : Could not transform data
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 65, in transform
+    self.pl_transformed_data = transformer.transform()
+                               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\transformer.py", line 50, in transform
+    self._validate_data()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\transformer.py", line 32, in _validate_data
+    raise ValidateDataException("Validation failed for pays data")
+exceptions.ValidateDataException: Validation failed for pays data
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 94, in etl_pipeline
+    etl.transform()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 68, in transform
+    raise TransformProcessException("Could not transform data")
+exceptions.TransformProcessException: Could not transform data
+2024-05-30 05:49:40 - INFO - etl - ETL is starting...
+2024-05-30 05:49:44 - INFO - etl - Data extracted successfully.
+2024-05-30 05:49:44 - INFO - transformer - prints data normalized successfully.
+2024-05-30 05:49:44 - INFO - transformer - taps data normalized successfully.
+2024-05-30 05:49:44 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-30 05:49:44 - INFO - data_validator - All validations passed successfully for source 'TAPS'.
+2024-05-30 05:49:44 - ERROR - data_validator - Source 'PAYS': Negative values found in column: total
+2024-05-30 05:49:44 - ERROR - etl - Error Transform Data : Could not transform data
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 65, in transform
+    self.pl_transformed_data = transformer.transform()
+                               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\transformer.py", line 50, in transform
+    self._validate_data()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\transformer.py", line 32, in _validate_data
+    raise ValidateDataException("Validation failed for pays data")
+exceptions.ValidateDataException: Validation failed for pays data
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 94, in etl_pipeline
+    etl.transform()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 68, in transform
+    raise TransformProcessException("Could not transform data")
+exceptions.TransformProcessException: Could not transform data
+2024-05-30 05:50:47 - INFO - etl - ETL is starting...
+2024-05-30 05:50:51 - INFO - etl - Data extracted successfully.
+2024-05-30 05:50:51 - INFO - transformer - prints data normalized successfully.
+2024-05-30 05:50:51 - INFO - transformer - taps data normalized successfully.
+2024-05-30 05:50:51 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-30 05:50:51 - ERROR - data_validator - Source 'TAPS': Missing columns: ['user_id_']
+2024-05-30 05:50:51 - ERROR - etl - Error Transform Data : Could not transform data
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 65, in transform
+    self.pl_transformed_data = transformer.transform()
+                               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\transformer.py", line 50, in transform
+    self._validate_data()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\transformer.py", line 27, in _validate_data
+    raise ValidateDataException("Validation failed for taps data")
+exceptions.ValidateDataException: Validation failed for taps data
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 94, in etl_pipeline
+    etl.transform()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 68, in transform
+    raise TransformProcessException("Could not transform data")
+exceptions.TransformProcessException: Could not transform data
+2024-05-30 05:51:57 - INFO - etl - ETL is starting...
+2024-05-30 05:52:00 - INFO - etl - Data extracted successfully.
+2024-05-30 05:52:00 - INFO - transformer - prints data normalized successfully.
+2024-05-30 05:52:00 - INFO - transformer - taps data normalized successfully.
+2024-05-30 05:52:00 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-30 05:52:00 - ERROR - data_validator - Source 'TAPS': Missing columns: ['user_id_']
+2024-05-30 05:52:01 - ERROR - etl - Error Transform Data : Could not transform data
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 65, in transform
+    self.pl_transformed_data = transformer.transform()
+                               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\transformer.py", line 50, in transform
+    self._validate_data()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\transformer.py", line 27, in _validate_data
+    raise ValidateDataException("Validation failed for TAPS data")
+exceptions.ValidateDataException: Validation failed for TAPS data
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 94, in etl_pipeline
+    etl.transform()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 68, in transform
+    raise TransformProcessException("Could not transform data")
+exceptions.TransformProcessException: Could not transform data
+2024-05-30 05:53:27 - INFO - etl - ETL is starting...
+2024-05-30 05:53:31 - INFO - etl - Data extracted successfully.
+2024-05-30 05:53:31 - INFO - transformer - PRINTS data normalized successfully.
+2024-05-30 05:53:31 - INFO - transformer - TAPS data normalized successfully.
+2024-05-30 05:53:31 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-30 05:53:31 - ERROR - data_validator - Source 'TAPS': Missing columns: ['user_id_']
+2024-05-30 05:53:31 - ERROR - etl - Error Transform Data : Could not transform data
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 65, in transform
+    self.pl_transformed_data = transformer.transform()
+                               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\transformer.py", line 50, in transform
+    self._validate_data()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\transformer.py", line 27, in _validate_data
+    raise ValidateDataException("Validation failed for TAPS data")
+exceptions.ValidateDataException: Validation failed for TAPS data
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 94, in etl_pipeline
+    etl.transform()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 68, in transform
+    raise TransformProcessException("Could not transform data")
+exceptions.TransformProcessException: Could not transform data
+2024-05-30 05:59:55 - INFO - etl - ETL is starting...
+2024-05-30 05:59:59 - INFO - etl - Data extracted successfully.
+2024-05-30 05:59:59 - INFO - transformer - PRINTS data normalized successfully.
+2024-05-30 05:59:59 - INFO - transformer - TAPS data normalized successfully.
+2024-05-30 05:59:59 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-30 05:59:59 - ERROR - data_validator - Source 'TAPS': Missing columns: ['user_id_']
+2024-05-30 05:59:59 - ERROR - etl - Error Transform Data : Could not transform data
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 65, in transform
+    self.pl_transformed_data = transformer.transform()
+                               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\transformer.py", line 50, in transform
+    self._validate_data()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\transformer.py", line 27, in _validate_data
+    raise ValidateDataException("Validation failed for TAPS data")
+exceptions.ValidateDataException: Validation failed for TAPS data
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 94, in etl_pipeline
+    etl.transform()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 68, in transform
+    raise TransformProcessException("Could not transform data")
+exceptions.TransformProcessException: Could not transform data
+2024-05-30 06:00:12 - INFO - etl - ETL is starting...
+2024-05-30 06:00:16 - INFO - etl - Data extracted successfully.
+2024-05-30 06:00:16 - INFO - transformer - PRINTS data normalized successfully.
+2024-05-30 06:00:16 - INFO - transformer - TAPS data normalized successfully.
+2024-05-30 06:00:16 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-30 06:00:16 - INFO - data_validator - All validations passed successfully for source 'TAPS'.
+2024-05-30 06:00:16 - INFO - data_validator - All validations passed successfully for source 'PAYS'.
+2024-05-30 06:00:17 - INFO - etl - Data transformed successfully.
+2024-05-30 06:00:17 - DEBUG - loader - Generated 113336 rows to CSV successfully.
+2024-05-30 06:00:17 - INFO - etl - Data loader successfully.
+2024-05-30 06:00:17 - INFO - etl - ETL finished successfully. Time elapsed: 4.96 seconds
+2024-05-30 06:00:37 - INFO - etl - ETL is starting...
+2024-05-30 06:00:41 - ERROR - extractor - File not found: C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\data\raw\pays.csv
+2024-05-30 06:00:41 - ERROR - etl - Error Extracting Data : Could not extract data
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 54, in extract
+    self.pl_prints, self.pl_taps, self.pl_pays = extractor.extract()
+                                                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\extractor.py", line 35, in extract
+    pl_pays = self._load_csv_to_dataframe(self.path_pays)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\extractor.py", line 30, in _load_csv_to_dataframe
+    return pl.read_csv(file_path)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\venv\Lib\site-packages\polars\utils.py", line 310, in wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\venv\Lib\site-packages\polars\io.py", line 387, in read_csv
+    df = DataFrame._read_csv(
+         ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\venv\Lib\site-packages\polars\internals\dataframe\frame.py", line 599, in _read_csv
+    self._df = PyDataFrame.read_csv(
+               ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: No such file or directory: C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\data\raw\pays.csv
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 93, in etl_pipeline
+    etl.extract()
+  File "C:\Users\chris\OneDrive\Documentos\MercadoPago_ETL\src\etl.py", line 57, in extract
+    raise ExtractProcessException("Could not extract data")
+exceptions.ExtractProcessException: Could not extract data
+2024-05-30 06:02:24 - INFO - etl - ETL is starting...
+2024-05-30 06:02:28 - INFO - etl - Data extracted successfully.
+2024-05-30 06:02:28 - INFO - transformer - PRINTS data normalized successfully.
+2024-05-30 06:02:28 - INFO - transformer - TAPS data normalized successfully.
+2024-05-30 06:02:28 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-30 06:02:28 - INFO - data_validator - All validations passed successfully for source 'TAPS'.
+2024-05-30 06:02:28 - INFO - data_validator - All validations passed successfully for source 'PAYS'.
+2024-05-30 06:02:29 - INFO - etl - Data transformed successfully.
+2024-05-30 06:02:29 - DEBUG - loader - Generated 113336 rows to CSV successfully.
+2024-05-30 06:02:29 - INFO - etl - Data loader successfully.
+2024-05-30 06:02:29 - INFO - etl - ETL finished successfully. Time elapsed: 4.85 seconds
+2024-05-30 06:35:48 - INFO - etl - ETL is starting...
+2024-05-30 06:35:53 - INFO - etl - Data extracted successfully.
+2024-05-30 06:35:53 - INFO - transformer - PRINTS data normalized successfully.
+2024-05-30 06:35:53 - INFO - transformer - TAPS data normalized successfully.
+2024-05-30 06:35:53 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-30 06:35:53 - INFO - data_validator - All validations passed successfully for source 'TAPS'.
+2024-05-30 06:35:53 - INFO - data_validator - All validations passed successfully for source 'PAYS'.
+2024-05-30 06:35:53 - INFO - etl - Data transformed successfully.
+2024-05-30 06:35:56 - DEBUG - loader - Generated 113336 rows to CSV successfully.
+2024-05-30 06:35:56 - INFO - etl - Data loader successfully.
+2024-05-30 06:35:56 - INFO - etl - ETL finished successfully. Time elapsed: 8.0 seconds
+2024-05-30 06:37:18 - INFO - etl - ETL is starting...
+2024-05-30 06:37:22 - INFO - etl - Data extracted successfully.
+2024-05-30 06:37:22 - INFO - transformer - PRINTS data normalized successfully.
+2024-05-30 06:37:22 - INFO - transformer - TAPS data normalized successfully.
+2024-05-30 06:37:23 - INFO - data_validator - All validations passed successfully for source 'PRINTS'.
+2024-05-30 06:37:23 - INFO - data_validator - All validations passed successfully for source 'TAPS'.
+2024-05-30 06:37:23 - INFO - data_validator - All validations passed successfully for source 'PAYS'.
+2024-05-30 06:37:23 - INFO - etl - Data transformed successfully.
+2024-05-30 06:37:24 - DEBUG - loader - Generated 113336 rows to CSV successfully.
+2024-05-30 06:37:24 - INFO - etl - Data loader successfully.
+2024-05-30 06:37:24 - INFO - etl - ETL finished successfully. Time elapsed: 5.66 seconds
