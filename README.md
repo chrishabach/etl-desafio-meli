@@ -53,3 +53,10 @@ Al ejecutar el archivo main.py comienza el proceso ETL para concluir con el guar
 ```bash
 python src/main.py
 ```
+
+Otra forma de ejecutar es construyendo la imagen de docker
+
+```bash
+docker build -t etl-meli-app .
+docker run -it etl-meli-app
+```
