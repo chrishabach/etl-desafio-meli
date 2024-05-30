@@ -5,7 +5,7 @@ Este desafío tiene como objetivo desarrollar un proceso integral de manejo de d
 ## Estructura del proyecto
 
 ```bash
-MercadoPago_ETL
+etl-desafio-meli
 ├─ data
 │  ├─ processed
 │  │  └─ result_dataset.csv

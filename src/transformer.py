@@ -60,9 +60,7 @@ class DataTransformer:
             how='left'
         ).with_column(
             (pl.col("day") - pl.duration(days=21)).alias("start_date")            
-        ).with_column(
-            pl.col("has_clicked").fill_null(0).alias("has_clicked")
-        )    
+        )
         
             
         pl_prints_left = pl_prints_taps.lazy()
@@ -108,5 +106,7 @@ class DataTransformer:
             on=['day', 'user_id', 'event_data_value_prop'], 
             how='left'
         )
+        
+        enriched_prints = enriched_prints.fill_null(0)
 
         return enriched_prints
